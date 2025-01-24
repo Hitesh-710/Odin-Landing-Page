@@ -26,6 +26,17 @@
     font-weight: 800;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: large;
+    transition: 200ms;
+    color: yellow;
+}
+
 .div2nav{
     margin-left: auto;
 }
@@ -45,6 +56,7 @@
 .mainimage{
     width: 50%;
     height: 300px;
+    object-fit: fill;
     background-color: #505760;
 }
 
@@ -107,6 +119,7 @@ p{
 
 .box{
     height: 200px;
+    object-fit: cover;
     width: 200px;
     border: 5px solid #3882f6;
     border-radius: 20px;
@@ -117,6 +130,7 @@ p{
     height: 500px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .container2 p{
